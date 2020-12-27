@@ -1,0 +1,13 @@
+[Unit]
+Description=Vanilla Minecraft server service
+After=network.target
+StartLimitAction=reboot
+
+[Service]
+Type=simple
+Restart=on-failure
+User=ubuntu
+ExecStart=/usr/games/minecraft/run.sh
+
+[Install]
+WantedBy=multi-user.target
