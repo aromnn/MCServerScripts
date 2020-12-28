@@ -8,6 +8,7 @@ Type=simple
 Restart=on-failure
 User=root
 ExecStart=/usr/games/minecraft/run.sh
+SuccessExitStatus=143
 
 [Install]
 WantedBy=multi-user.target
