@@ -6,7 +6,7 @@ StartLimitAction=reboot
 [Service]
 Type=simple
 Restart=on-failure
-User=ubuntu
+User=root
 ExecStart=/usr/games/minecraft/run.sh
 
 [Install]
