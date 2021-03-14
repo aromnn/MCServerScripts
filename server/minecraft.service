@@ -6,7 +6,7 @@ StartLimitAction=reboot
 [Service]
 Type=simple
 Restart=on-failure
-User=root
+User=ubuntu
 ExecStart=/usr/games/minecraft/run.sh
 SuccessExitStatus=143
 
